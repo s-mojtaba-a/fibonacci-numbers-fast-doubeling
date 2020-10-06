@@ -1,4 +1,4 @@
-def find_fib_n(n):
+def find_fib_n(n): # 0,1,1,2,...
     if n == 0:
         return([0, 1])
     s = find_fib_n(n >> 1)  # find_fib_n(n//2)
