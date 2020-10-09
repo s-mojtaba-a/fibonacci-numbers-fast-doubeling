@@ -7,4 +7,4 @@ if we want to calculate fib(n), first we have to calculate fib(n//2) and fib(n//
 Recursivly, we have to calculate some other fibonacci terms.
 So we can implement this by a recursive function.
 The function calculates fib(n) and returns (fib(n),fib(n+1)).
-
+This method of finding Fibonacci numbers can only be used when f0 = 0 and f1 = 1 !!!
